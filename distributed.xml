@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parllel="tests" thread-count="3">
+  <test thread-count="5" name="Test Runner 1">
+    <classes>
+      <class name="distributedParllel.TestClass1"/>
+      <class name="distributedParllel.TestClass2"/>
+      </classes>
+      </test><!-- Test-->
+      <test thread-count="5" name="Test Runner 2">
+	<classes>  
+      <class name="distributedParllel.TestClass3"/>
+      <class name="distributedParllel.TestClass4"/>
+      </classes>
+	</test><!-- Test-->
+	<test thread-count="5" name="Test Runner 3">
+	<classes>
+      <class name="distributedParllel.TestClass6"/>
+      <class name="distributedParllel.TestClass5"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
