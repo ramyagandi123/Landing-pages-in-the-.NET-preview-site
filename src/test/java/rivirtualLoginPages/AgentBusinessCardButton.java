@@ -33,7 +33,7 @@ public class AgentBusinessCardButton {
 	      Thread.sleep(2000);
 	      driver.findElement(By.name("agentusername")).sendKeys("ramya92@rivirtuals.com");
           Thread.sleep(2000);
-	      driver.findElement(By.name("agentloginpassword")).sendKeys("ramya92@rivirtuals.com");
+	      driver.findElement(By.name("agentloginpassword")).sendKeys("......");
 	      Thread.sleep(2000);
 	      driver.findElement(By.id("agentloginbtn")).click();
 	      Thread.sleep(2000);
