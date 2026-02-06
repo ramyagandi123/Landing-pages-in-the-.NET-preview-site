@@ -19,7 +19,7 @@ public class AgentAdminPropertyApprove {
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://rivirtual.net/preview/empower/login");
 	driver.findElement(By.id("email")).sendKeys("info@rivirtual.net");
-	driver.findElement(By.id("password")).sendKeys("admin");
+	driver.findElement(By.id("password")).sendKeys(".....");
 	driver.findElement(By.id("checkbox-signup")).click();
 	driver.findElement(By.xpath("//button[@ type=\"submit\"]")).click();
 	  // Locate the element containing the number 429951 dynamic element
